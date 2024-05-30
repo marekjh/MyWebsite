@@ -1,11 +1,10 @@
 import pygame
 import numpy as np
 from compute import RK4, sigma
-import sys
 
 # TODO: Add UI to make things like masses and pendulum lengths customizeable
 
-N = int(sys.argv[1]) if len(sys.argv) > 1 else 2 # TODO: Rework to get user input from frontend
+N = 2 # Rework to get user input from frontend
 SIM_DIMENSION = 600
 BUFFER = 150
 SIZE = SIM_DIMENSION + BUFFER
